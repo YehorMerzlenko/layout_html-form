@@ -11,9 +11,9 @@
   </head>
   <body>
     <form method="POST" onsubmit="onSubmit()">
-      <fieldset class="block">
+      <fieldset>
         <legend>Personal information</legend>
-        <div class="input">
+        <div >
           <label for="surname"> Surname:
             <input type="text" id="surname">
           </label>
@@ -31,7 +31,7 @@
           </label>
         </div>
         <div class="input">
-          <label for="birthday">Full name of birth:
+          <label for="birthday">Full date of birth:
             <input type="date" id="birthday">
           </label>
         </div>
@@ -44,19 +44,19 @@
       </fieldset>
       <fieldset class="block">
         <legend>Registration</legend>
-        <div class="input">
-          E-mail
+        <div>
+          E-mail:
           <input type="email" placeholder="email@example.com">
         </div>
         <div class="input">
-          <label for="password">Password
+          <label for="password">Password:
             <input type="password" id="password">
           </label>
         </div>
       </fieldset>
       <fieldset class="block">
         <legend>An interesting fact about you!</legend>
-        <div class="input">Do you love cats?
+        <div>Do you love cats?
           <label for="Y">
             <input type="radio" id="Y"
              name="pet">Yes
@@ -77,12 +77,12 @@
           </label>
         </div>
         <div class="input">
-          <label for="car">What are you favorite brand of cars?
+          <label for="car">What are your favorite brand of cars?
             <select id="car" multiple>
               <option value="bmw">BMW</option>
               <option value="audi">Audi</option>
               <option value="lada">Lada</option>
-              <option disabled selected></option>
+              <option selected></option>
             </select>
           </label>
         </div>
@@ -94,7 +94,7 @@
       </fieldset>
       <fieldset class="block">
         <legend>Additional info:</legend>
-        <div class="input">
+        <div>
           <label for="comments">Comments:
             <textarea id="comments"></textarea>
           </label>
