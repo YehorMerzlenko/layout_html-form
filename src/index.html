@@ -11,7 +11,7 @@
   </head>
   <body>
     <form
-     action=""
+     action="http://localhost:3000/api"
      method="POST"
      onsubmit="onSubmit()"
     >
@@ -20,54 +20,55 @@
         <div >
           <label for="surname">
             Surname:
-            <input
-              name="surname"
-              type="text"
-              id="surname"
-            >
           </label>
+          <input
+            name="surname"
+            type="text"
+            id="surname"
+          >
         </div>
         <div class="input">
           <label for="name">
             Name:
-            <input
-              name="name"
-              type="text"
-              id="name"
-            >
           </label>
+          <input
+          name="name"
+            type="text"
+            id="name"
+          >
         </div>
         <div class="input">
           <label for="age">
             How old are You?
-            <input
-              name="age"
-              type="number"
-              value="12"
-              id="age" min="12"
-              max="100"
-            >
           </label>
+          <input
+            name="age"
+            type="number"
+            value="12"
+            id="age"
+            min="12"
+            max="100"
+          >
         </div>
         <div class="input">
           <label for="birthday">
             Full date of birth:
-            <input
-              name="birthday"
-              type="date"
-              id="birthday"
-            >
           </label>
+          <input
+            name="birthday"
+            type="date"
+            id="birthday"
+          >
         </div>
         <div class="input">
           <label for="term-and-agree">
             I accept the term of the agreement
-            <input
-              name="term"
-              type="checkbox"
-              id="term-and-agree"
-            >
           </label>
+          <input
+            name="term"
+            type="checkbox"
+            id="term-and-agree"
+          >
         </div>
 
       </fieldset>
@@ -84,54 +85,54 @@
         <div class="input">
           <label for="password">
             Password:
-            <input
-              name="password"
-              type="password"
-              id="password"
-            >
           </label>
+          <input
+            name="password"
+            type="password"
+            id="password"
+          >
         </div>
       </fieldset>
       <fieldset class="block">
         <legend>An interesting fact about you!</legend>
         <div>
           Do you love cats?
-          <label for="Y">
-            <input
-              type="radio"
-              id="Y"
-              name="pet"
-            >
+          <label for="yes">
             Yes
           </label>
-          <label for="N">
-            <input
-              type="radio"
-              id="N"
-              name="pet"
-            >
+          <input
+            type="radio"
+            id="yes"
+            name="pet"
+          >
+          <label for="no">
             No
           </label>
+          <input
+            type="radio"
+            id="no"
+            name="pet"
+          >
         </div>
         <div class="input">
           <label for="color">
             What is your favorite color?
-            <input
-              name="color"
-              type="color"
-              id="color"
-            >
           </label>
+          <input
+            name="color"
+            type="color"
+            id="color"
+          >
         </div>
         <div class="input">
           <label for="time-go-to-bed">
             What time do you go to bed?
-            <input
-              name="bed_time"
-              type="time"
-              id="time-go-to-bed"
-            >
           </label>
+          <input
+            name="bed_time"
+            type="time"
+            id="time-go-to-bed"
+          >
         </div>
         <div class="input">
           <label for="car">
@@ -146,12 +147,12 @@
         </div>
         <div class="input">
           <label for="rate">How do you rate out work?
-            <input
-              name="work_rate"
-              type="range"
-              id="rate"
-            >
           </label>
+          <input
+            name="work_rate"
+            type="range"
+            id="rate"
+          >
         </div>
       </fieldset>
       <fieldset class="block">
